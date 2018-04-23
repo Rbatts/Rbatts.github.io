@@ -1,0 +1,145 @@
+html {
+	margin: 0;
+	padding: 10;
+	}
+	
+img {
+	height: 400px;
+	width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{ 
+    font-family: "Brush Script MT", cursive;
+	font-size: 100px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+    color:#D4AF37;
+}
+
+h1:hover {color: blue;}
+h2:hover {color: red;}
+h3:hover {color: green;}		
+li:hover {color: blue;}
+p:hover {color: blue;}
+a:hover {color: green;}
+a:link {color: green;}
+
+
+a{ 
+	font-size:40px;
+	font-family: "Brush Script MT", cursive;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	color:#D4AF37;
+}
+
+h2{ 
+    margin-left: 150px;
+	font-size:50px;
+	font-family: "Brush Script MT", cursive;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+    color:#D4AF37; 
+}
+
+h3{ 
+    margin-left: 150px;
+	font-size:50px;
+	font-family: "Brush Script MT", cursive;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+    color:#D4AF37; 
+}
+
+body{
+    background-image: url("http://www.creativeactorsworkshop.com/wp-content/uploads/2012/10/Black-Star-Wallpaper-1024x640.jpg");
+	background-repeat: repeat;
+	background-size: 1500px 770px;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: white;
+}
+
+ul{
+	margin-top: -30px; 
+	margin-left: 150px;
+}
+
+ol{
+	margin-top: -30px; 
+	margin-left: 150px;
+}
+
+div{
+	background: transparent;
+	background: rgba(240,230,140,0.2);
+	margin-left: 150px; 
+	margin-right: 150px;
+	padding-bottom: 100px;
+}
+
+p { 
+	margin-top: -30px; 
+	margin-left: 150px;
+	}
+
+.box1 {
+  height: 10px;
+  width: 300px;
+  background-color: #1ce;
+  animation: move 0.5s 0s infinite linear;
+  
+  
+}
+
+.box2 {
+  height: 10px;
+  width: 300px;
+  background-color: #1ce;
+  animation: move 0.5s 0s infinite linear;
+  animation-direction: reverse;
+  
+}
+
+
+@keyframes move {
+  0% {
+    transfrom: translateX(0);
+  }
+  
+  100% {
+    transform: translatex(1200px);
+  }
+}
+
+section {
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: 800px;
+}
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
