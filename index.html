@@ -1,13 +1,24 @@
-<!DOCTYPE html>
+<!DOCtype html>
 <html>
-<head> 
-<link rel="stylesheet" href="css/StyleSheet.css"  type="text/css"/head>
+<head>
+	<title>giphy.js demo</title>
+	<script src="script.js"></script>
+<link rel=stylesheet  type=text/css href=StyleSheet.css></head>
 
 
-<img src="https://avatars1.githubusercontent.com/u/32482377?s=460&v=4" alt="Glastonbury Picture" >
+<img src="https://avatars1.githubusercontent.com/u/32482377?s=460&v=4" class="zoom" alt="Glastonbury Picture" >
+
+<div class="btn-group" style="margin-top:100px">
+<button onclick="myFunction()">Hide Page Content</button>
+<button onclick="picFunction()">Delete Photo</button>
+<button onClick="date_time()">Click and see Date and Time</button>
+</div>
+
+<p id="date_time"></p>
+
 <body>
-	<div>
-<p class="center">
+	<div id="myDIV">
+    <p class="center">
     <h1><center>Rich's Home Page<center></h1>
     <p class="col-md-5">
 	<a href="HtmlPageExtension.html";  >Picture Page </a>
@@ -29,7 +40,7 @@
             I am interested in going to music festivals and gigs. I go as often as I can. 
             I have been to some of the UK's biggest festivals and music weekends, I save all year round to go to as many as possible. 
             I enjoy finding new bands that are just staring their first tours.
-            There are a large number of venues to go to around where I live and we are never without a place where we can watch live music. 
+            There are a large value of venues to go to around where I live and we are never without a place where we can watch live music. 
         </p>
     </p>
     <p class="col-md-4">
@@ -52,11 +63,43 @@
             <li><a href="https://github.com">Github</a></li>
             <li><a href="https://www.w3schools.com">W3schools</a></li>
             <li><a href="https://www.instagram.com/?hl=en">Instagram</a></li>
-            <li><a href="https://www.boardmasters.com">boardmasters</a></li>
+            <li><a href="https://www.boardmasters.com">Boardmasters</a></li>
             <li><a href="http://www.asos.com/men/">ASOS</a></li>
         </ol>
     </p>
 </p>
-</div>
+
+<span id = "giphyme"></span>
+
+<form name="myform">
+<br>
+<input type="text" ID="screen" name="screen" size="16" style="padding-left:20px;font-size:30px;height:50px" <br>
+<br>
+<input type="button" name="1 " value="1 " onclick="update(1)">
+<input type="button" name="2 " value="2 " onclick="update(2)">
+<input type="button" name="3 " value="3 " onclick="update(3)">
+<input type="button" name="+ " value="+ " onclick="update('+')">
+<br>
+<input type="button" name="4 " value="4 " onclick="update(4)">
+<input type="button" name="5 " value="5 " onclick="update(5)">
+<input type="button" name="6 " value="6 " onclick="update(6)">
+<input type="button" name="- " value="- " onclick="update('-')">
+<br>
+<input type="button" name="7 " value="7 " onclick="update(7)">
+<input type="button" name="8 " value="8 " onclick="update(8)">
+<input type="button" name="9 " value="9 " onclick="update(9)">
+<input type="button" name="* " value="X" onclick="update('*')">
+<br>
+<input type="button" name="c " value="C " onclick="reset();">
+<input type="button" name="0 " value="0 " onclick="update(0)">
+<input type="button" name="= " value="= " onclick="result();">
+<input type="button" name="/ " value="/ " onclick="update('/')">
+</form>
+
+<br>
+<br>
+<br>
+<script src="script.js"></script>
 </body>
+</div>
 </html>
