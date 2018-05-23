@@ -4,19 +4,72 @@ html {
 	}
 	
 img {
+	border-style: solid;
+	border-color: #D4AF37;
 	height: 400px;
 	width: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+	margin-top:70px;
 }
+
+form{
+	margin-left: 170px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	
+}
+
+input[type="button"] {
+    width: 80px;
+    height: 50px;
+    border: 1;
+	font-family: "Brush Script MT", cursive;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+    background-color:#D4AF37;
+}
+
+#calc-contain{
+  position: relative;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 12px;
+  margin: 0px auto;
+  padding: 20px 20px 100px 20px;
+}
+
+.btn-group button {
+	background-color: #D4AF37;
+	font-family: "Brush Script MT";
+	font-size: 20px;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+	margin-right: 40px;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
 
 h1{ 
     font-family: "Brush Script MT", cursive;
 	font-size: 100px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 400;
+	font-weight: 50;
     color:#D4AF37;
 }
 
@@ -34,7 +87,7 @@ a{
 	font-family: "Brush Script MT", cursive;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 400;
+	font-weight: 50;
 	color:#D4AF37;
 }
 
@@ -44,7 +97,7 @@ h2{
 	font-family: "Brush Script MT", cursive;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 400;
+	font-weight: 50;
     color:#D4AF37; 
 }
 
@@ -54,7 +107,7 @@ h3{
 	font-family: "Brush Script MT", cursive;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 400;
+	font-weight: 50;
     color:#D4AF37; 
 }
 
@@ -82,7 +135,7 @@ div{
 	background: rgba(240,230,140,0.2);
 	margin-left: 150px; 
 	margin-right: 150px;
-	padding-bottom: 100px;
+
 }
 
 p { 
@@ -142,4 +195,18 @@ section {
 
 #cf img.top:hover {
   opacity:0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
 }
