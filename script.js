@@ -26,27 +26,37 @@ function reset(){
 function date_time(){
 	document.getElementById("date_time").innerHTML = Date();5
 }
-
-
-document.addEventListener('DOMContentLoaded', function () {
-	q = "trending";
 	
-	request = new XMLHttpRequest;
-	request.open('GET', 'http://api.giphy.com/v1/gifs/random?api_key=tXSjreliE1V0n9OS7589OML48MU4m6EN&tag='+q, true);
-	
-	request.onload = function() {
-		if (request.status >= 200 && request.status < 400){
-			data = JSON.parse(request.responseText).data.image_url;
-			console.log(data);
-			document.getElementById("giphyme").innerHTML = '<center><img src = "'+data+'"  title="GIF via Giphy"></center>';
-		} else {
-			console.log('reached giphy, but API returned an error');
-		 }
-	};
+const API_KEY = "apiKey=tXSjreliE1V0n9OS7589OML48MU4m6EN"
 
-	request.onerror = function() {
-		console.log('connection error');
-	};
+const URL = "https://api.giphy.com/v1"
 
-	request.send();
-});
+const RANDOM_END_POINT = "/gifs/random?"
+
+function getGif() {
+  // we create a new instance of an HTTP request
+  var request = new XMLHttpRequest();
+  //we get the text that the user has typed in
+  searchTerm = document.getElementById('input-box').value;
+  // we set up the url endpoint we want to reach
+  var searchQuery = "&tag=" + searchTerm;
+  var requestUrl = URL + RANDOM_END_POINT + API_KEY + searchQuery
+  
+  // we make the request
+  request.open('GET', requestUrl);
+  request.responseType = 'json';
+  request.send();
+
+  //we do something with the successful response
+  request.onload = function() {
+    var response = request.response;
+    var imageUrl  = response.data.image_url;
+    document.getElementById('gif').src = imageUrl
+  }
+}
+
+
+
+
+
+
