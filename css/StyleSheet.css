@@ -1,38 +1,37 @@
 html {
-	margin: 0;
-	padding: 10;
-	}
-	
-img {
-	border-style: solid;
-	border-color: #D4AF37;
-	height: 400px;
-	width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-	margin-top:70px;
+  margin: 0;
+  padding: 10;
 }
 
-form{
-	margin-left: 170px;
-	margin-top: 50px;
-	margin-bottom: 40px;
-	
+img {
+  border-style: solid;
+  border-color: #D4AF37;
+  height: 400px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+
+form {
+  margin-left: 170px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 input[type="button"] {
-    width: 80px;
-    height: 50px;
-    border: 1;
-	font-family: "Brush Script MT", cursive;
-	font-size: 40px;
-	font-style: normal;
-	font-variant: normal;
-    background-color:#D4AF37;
+  width: 80px;
+  height: 50px;
+  border: 1;
+  font-family: "Brush Script MT", cursive;
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  background-color: #D4AF37;
 }
 
-#calc-contain{
+#calc-contain {
   position: relative;
   width: 400px;
   border: 2px solid black;
@@ -42,114 +41,129 @@ input[type="button"] {
 }
 
 .btn-group button {
-	background-color: #D4AF37;
-	font-family: "Brush Script MT";
-	font-size: 20px;
-    border: 1px solid black;
-    color: white;
-    padding: 10px 24px;
-    cursor: pointer;
-    float: left;
-	margin-right: 40px;
+  background-color: #D4AF37;
+  font-family: "Brush Script MT";
+  font-size: 20px;
+  border: 1px solid black;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+  margin-right: 40px;
 }
 
 .btn-group:after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .btn-group button:not(:last-child) {
-    border-right: none;
+  border-right: none;
 }
 
-
-h1{ 
-    font-family: "Brush Script MT", cursive;
-	font-size: 100px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 50;
-    color:#D4AF37;
+h1 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 100px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 50;
+  color: #D4AF37;
 }
 
-h1:hover {color: blue;}
-h2:hover {color: red;}
-h3:hover {color: green;}		
-li:hover {color: blue;}
-p:hover {color: blue;}
-a:hover {color: green;}
-a:link {color: green;}
-
-
-a{ 
-	font-size:40px;
-	font-family: "Brush Script MT", cursive;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 50;
-	color:#D4AF37;
+h1:hover {
+  color: blue;
 }
 
-h2{ 
-    margin-left: 150px;
-	font-size:50px;
-	font-family: "Brush Script MT", cursive;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 50;
-    color:#D4AF37; 
+h2:hover {
+  color: red;
 }
 
-h3{ 
-    margin-left: 150px;
-	font-size:50px;
-	font-family: "Brush Script MT", cursive;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 50;
-    color:#D4AF37; 
+h3:hover {
+  color: green;
 }
 
-body{
-    background-image: url("http://www.creativeactorsworkshop.com/wp-content/uploads/2012/10/Black-Star-Wallpaper-1024x640.jpg");
-	background-repeat: repeat;
-	background-size: 1500px 770px;
-	letter-spacing: 1px; 
-	margin-bottom: 0; 
-	color: white;
+li:hover {
+  color: blue;
 }
 
-ul{
-	margin-top: -30px; 
-	margin-left: 150px;
+p:hover {
+  color: blue;
 }
 
-ol{
-	margin-top: -30px; 
-	margin-left: 150px;
+a:hover {
+  color: green;
 }
 
-div{
-	background: transparent;
-	background: rgba(240,230,140,0.2);
-	margin-left: 150px; 
-	margin-right: 150px;
-
+a:link {
+  color: green;
 }
 
-p { 
-	margin-top: -30px; 
-	margin-left: 150px;
-	}
+a {
+  font-size: 40px;
+  font-family: "Brush Script MT", cursive;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 50;
+  color: #D4AF37;
+}
+
+h2 {
+  margin-left: 150px;
+  font-size: 50px;
+  font-family: "Brush Script MT", cursive;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 50;
+  color: #D4AF37;
+}
+
+h3 {
+  margin-left: 150px;
+  font-size: 50px;
+  font-family: "Brush Script MT", cursive;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 50;
+  color: #D4AF37;
+}
+
+body {
+  background-image: url("http://www.creativeactorsworkshop.com/wp-content/uploads/2012/10/Black-Star-Wallpaper-1024x640.jpg");
+  background-repeat: repeat;
+  background-size: 1500px 770px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: white;
+}
+
+ul {
+  margin-top: -30px;
+  margin-left: 150px;
+}
+
+ol {
+  margin-top: -30px;
+  margin-left: 150px;
+}
+
+div {
+  background: transparent;
+  background: rgba(240, 230, 140, 0.2);
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+p {
+  margin-top: -30px;
+  margin-left: 150px;
+}
 
 .box1 {
   height: 10px;
   width: 300px;
   background-color: #1ce;
   animation: move 0.5s 0s infinite linear;
-  
-  
 }
 
 .box2 {
@@ -158,15 +172,12 @@ p {
   background-color: #1ce;
   animation: move 0.5s 0s infinite linear;
   animation-direction: reverse;
-  
 }
-
 
 @keyframes move {
   0% {
     transfrom: translateX(0);
   }
-  
   100% {
     transform: translatex(1200px);
   }
@@ -179,34 +190,37 @@ section {
 }
 
 #cf {
-  position:relative;
-  height:281px;
-  width:450px;
-  margin:0 auto;
+  position: relative;
+  height: 281px;
+  width: 450px;
+  margin: 0 auto;
 }
 
 #cf img {
-  position:absolute;
-  left:0;
+  position: absolute;
+  left: 0;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
 
 #cf img.top:hover {
-  opacity:0;
+  opacity: 0;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .zoom {
-    transition: transform .2s;
+  transition: transform .2s;
 }
 
 .zoom:hover {
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5); 
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
+
+/*# sourceMappingURL=StyleSheet.css.map */
+/*# sourceMappingURL=StyleSheet.css.map */
