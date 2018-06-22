@@ -179,7 +179,7 @@ p {
     transfrom: translateX(0);
   }
   100% {
-    transform: translatex(1200px);
+    transform: translatex(2000px);
   }
 }
 
