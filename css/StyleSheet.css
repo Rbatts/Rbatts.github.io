@@ -5,17 +5,17 @@ html {
 
 img {
   border-style: solid;
-  border-color: #d4af37;
+  border-color: #D4AF37;
   height: 400px;
   width: 400px;
   display: block;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 70px;
 }
 
 form {
-  margin-left: 10px;
+  margin-left: 170px;
   margin-top: 50px;
   margin-bottom: 40px;
 }
@@ -28,7 +28,7 @@ input[type="button"] {
   font-size: 40px;
   font-style: normal;
   font-variant: normal;
-  background-color: #d4af37;
+  background-color: #D4AF37;
 }
 
 #calc-contain {
@@ -41,7 +41,7 @@ input[type="button"] {
 }
 
 .btn-group button {
-  background-color: #d4af37;
+  background-color: #D4AF37;
   font-family: "Brush Script MT";
   font-size: 20px;
   border: 1px solid black;
@@ -49,7 +49,7 @@ input[type="button"] {
   padding: 10px 24px;
   cursor: pointer;
   float: left;
-  margin-right: 10px;
+  margin-right: 40px;
 }
 
 .btn-group:after {
@@ -68,7 +68,7 @@ h1 {
   font-style: normal;
   font-variant: normal;
   font-weight: 50;
-  color: #d4af37;
+  color: #D4AF37;
 }
 
 h1:hover {
@@ -105,27 +105,27 @@ a {
   font-style: normal;
   font-variant: normal;
   font-weight: 50;
-  color: #d4af37;
+  color: #D4AF37;
 }
 
 h2 {
-  margin-left: 10px;
+  margin-left: 150px;
   font-size: 50px;
   font-family: "Brush Script MT", cursive;
   font-style: normal;
   font-variant: normal;
   font-weight: 50;
-  color: #d4af37;
+  color: #D4AF37;
 }
 
 h3 {
-  margin-left: 10px;
+  margin-left: 150px;
   font-size: 50px;
   font-family: "Brush Script MT", cursive;
   font-style: normal;
   font-variant: normal;
   font-weight: 50;
-  color: #d4af37;
+  color: #D4AF37;
 }
 
 body {
@@ -139,24 +139,24 @@ body {
 
 ul {
   margin-top: -30px;
-  margin-left: 10px;
+  margin-left: 150px;
 }
 
 ol {
   margin-top: -30px;
-  margin-left: 10px;
+  margin-left: 150px;
 }
 
 div {
   background: transparent;
   background: rgba(240, 230, 140, 0.2);
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 p {
   margin-top: -30px;
-  margin-left: 10px;
+  margin-left: 150px;
 }
 
 .box1 {
@@ -186,7 +186,7 @@ p {
 section {
   margin-top: 1em;
   margin-left: auto;
-  margin-right: 10px;
+  margin-right: 800px;
 }
 
 #cf {
@@ -221,4 +221,6 @@ section {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
+
+/*# sourceMappingURL=StyleSheet.css.map */
 /*# sourceMappingURL=StyleSheet.css.map */
